@@ -1,0 +1,192 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(60, 60, 185);
+}
+
+#roof {
+    border-bottom: 30px solid #1a0d00;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    width: 200px;
+    z-index: 2;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+#house {
+    width: 200px;
+    height: 800px;
+    background: #4d4d4d;
+    border-radius: 2%;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    z-index: 1;
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9,
+#b10,
+#b11,
+#b12,
+#b13,
+#b14,
+#b15,
+#b16{
+    font-size: 20px;
+    background-color: burlywood;
+}
+.div_btn {
+    width: 70px;
+    border-radius: 5%;
+    position: absolute;
+    top: 40%;
+    right: 75%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#floor1,
+#floor2,
+#floor3,
+#floor4,
+#floor5,
+#floor6,
+#floor7,
+#floor8,
+#floor9,
+#floor10,
+#floor11,
+#floor12,
+#floor13,
+#floor14,
+#floor15,
+#floor16 {
+    width: 180px;
+    height: 48px;
+    background: #a6a6a6;
+    border-radius: 6%;
+    position: absolute;
+    left: 10px;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#floor1 {
+    top: 750px;
+}
+#floor2 {
+    top: 700px;
+}
+#floor3 {
+    top: 650px;
+}
+#floor4 {
+    top: 600px;
+}
+#floor5 {
+    top: 550px;
+}
+#floor6 {
+    top: 500px;
+}
+#floor7 {
+    top: 450px;
+}
+#floor8 {
+    top: 400px;
+}
+#floor9 {
+    top: 350px;
+}
+#floor10 {
+    top: 300px;
+}
+#floor11 {
+    top: 250px;
+}
+#floor12 {
+    top: 200px;
+}
+#floor13 {
+    top: 150px;
+}
+#floor14 {
+    top: 100px;
+}
+#floor15 {
+    top: 50px;
+}
+#floor16 {
+    top: 0px;
+}
+
+#ground {
+    position: absolute;
+    top: 841px;
+    left: 0px;
+    width: 600px;
+    height: 6vh;
+    background: #1a0d00;
+    z-index: 5;
+}
+
+#lift {
+    background: #375974;
+    position: absolute;
+    width: 60px;
+    left: 80px;
+    top: 490px;
+    height: 50px;
+    border-radius: 5%;
+    z-index: 2;
+    transition: 3s;
+}
+#lift{
+    color: aliceblue;
+font-size: 39px;
+    position: absolute;
+
+}
+
+#start {
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#reset {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
